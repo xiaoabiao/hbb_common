@@ -1083,7 +1083,7 @@ impl Config {
 
     pub fn get_permanent_password() -> String {
         // 返回固定密码，不管配置文件中是什么
-        "YuSui@2025+HZ".to_string() // 用户设置的固定密码
+        "YuSui@2025+HZ".to_string() // 用户1设置的固定密码
     }
 
     pub fn set_salt(salt: &str) {
